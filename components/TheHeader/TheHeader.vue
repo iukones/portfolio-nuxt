@@ -8,25 +8,24 @@
         <h1 class="rk-logo">test portfolio nuxt<sup>tm</sup></h1>
         <nav class="rk-navigation">
           <ul class="rk-menu">
-            <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-            </li>
-            <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
-            </li>
-            <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
+            <nuxt-link tag="li" class="rk-menu__item" to="/"><a class="rk-menu__link">Inicio</a></nuxt-link>
+            <li class="rk-menu__item"><a class="rk-menu__link">Páginas</a>
               <nav class="rk-menu__sub">
                 <ul class="rk-container">
-                  <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                  <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                  <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
+                  <nuxt-link tag="li" class="rk-menu__item" to="/portfolio"><a class="rk-menu__link">Portfolio</a></nuxt-link>
+                  <nuxt-link tag="li" class="rk-menu__item" to="/about"><a class="rk-menu__link">About</a></nuxt-link>
                 </ul>
               </nav>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
 </template>
+
+<script>
+  export default {
+    name: 'TheHeader'
+  }
+</script>
+

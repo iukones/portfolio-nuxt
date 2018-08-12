@@ -1,19 +1,66 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        portfolio-nuxt
-      </h1>
-      <h2 class="subtitle">
-        prueba tecnica Nuxt
-      </h2>
-      <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">Documentation</a>
-        <a href="https://github.com/nuxt/nuxt.js" target="_blank" class="button--grey">GitHub</a>
-      </div>
-    </div>
-  </section>
+  <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
+    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
+      <a href="portfolio-item.html" class="rk-item ae-masonry__item">
+        <img src="~/assets/img/project-1.jpg" alt="">
+        <div class="item-meta">
+          <h2>Essential Stationery</h2>
+          <p>Branding</p>
+        </div>
+      </a>
+      <a href="portfolio-item.html" class="rk-item ae-masonry__item">
+        <img src="~/assets/img/project-2.jpg" alt="">
+        <div class="item-meta">
+          <h2>Pickled Tousled</h2>
+          <p>Art Direction</p>
+        </div>
+        </a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-3.jpg" alt="">
+            <div class="item-meta">
+              <h2>Waistcoat vegan</h2>
+              <p>Graphic Design</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-4.jpg" alt="">
+            <div class="item-meta">
+              <h2>Tumblr hammock</h2>
+              <p>Packaging</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-5.jpg" alt="">
+            <div class="item-meta">
+              <h2>Biodiesel etsy</h2>
+              <p>Branding</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-6.jpg" alt="">
+            <div class="item-meta">
+              <h2>Gentrify artisan</h2>
+              <p>Graphic Design</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-7.jpg" alt="">
+            <div class="item-meta">
+              <h2>Plaid austin</h2>
+              <p>Graphic Design</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-8.jpg" alt="">
+            <div class="item-meta">
+              <h2>Trust fund</h2>
+              <p>Packaging</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-9.jpg" alt="">
+            <div class="item-meta">
+              <h2>Gentrify pork</h2>
+              <p>Branding</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-10.jpg" alt="">
+            <div class="item-meta">
+              <h2>Waistcoat ugh</h2>
+              <p>UI/UX</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-11.jpg" alt="">
+            <div class="item-meta">
+              <h2>Deep v kogi</h2>
+              <p>Graphic Design</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-12.jpg" alt="">
+            <div class="item-meta">
+              <h2>Venmo trust</h2>
+              <p>Packaging</p>
+            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-13.jpg" alt="">
+            <div class="item-meta">
+              <h2>Venmo trust</h2>
+              <p>Ui/UX</p>
+            </div></a>
+        </div>
+      </section>
 </template>
 
 <script>
@@ -26,34 +73,3 @@ export default {
 }
 </script>
 
-<style>
-.container
-{
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.title
-{
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-.subtitle
-{
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-.links
-{
-  padding-top: 15px;
-}
-</style>

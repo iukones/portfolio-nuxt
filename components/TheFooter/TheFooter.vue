@@ -3,12 +3,9 @@
       <div class="ae-grid ae-grid--collapse">
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
           <ul class="rk-menu rk-footer-menu">
-            <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">Home</a>
-            </li>
-            <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Portfolio</a>
-            </li>
-            <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">About</a>
-            </li>
+            <nuxt-link tag="li" class="rk-menu__item" to="/"><a class="rk-menu__link">Inicio</a></nuxt-link>
+            <nuxt-link tag="li" class="rk-menu__item" to="/portfolio"><a class="rk-menu__link">Portfolio</a></nuxt-link>
+            <nuxt-link tag="li" class="rk-menu__item" to="/about"><a class="rk-menu__link">About</a></nuxt-link>
           </ul>
           <p class="rk-footer__text rk-footer__copy "> <span class="ae-u-bold">© </span><span class="ae-u-bolder">TEST PORTFOLIO CON NUXT.JS</span> All Right Reserved.</p>
         </div>
@@ -21,3 +18,10 @@
       </div>
     </footer>
 </template>
+
+<script>
+  export default {
+    name: 'TheFooter'
+  }
+</script>
+
