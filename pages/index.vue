@@ -1,75 +1,50 @@
 <template>
-  <section class="ae-container-fluid ae-container-fluid--inner rk-portfolio">
-    <div class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
-      <a href="portfolio-item.html" class="rk-item ae-masonry__item">
-        <img src="~/assets/img/project-1.jpg" alt="">
-        <div class="item-meta">
-          <h2>Essential Stationery</h2>
-          <p>Branding</p>
+  <section class="ae-container-fluid ae-container-fluid--full">
+      <header class="rk-portfolio-cover  item-inside-1">
+        <div class="item-inside__meta">
+          <h1 class="ae-u-bolder rk-portfolio-title ">Bienvenidos al test portfolio con NUXT-JS</h1>
+          <p class="ae-theta rk-portfolio-category ">Mi marca personal</p>
         </div>
-      </a>
-      <a href="portfolio-item.html" class="rk-item ae-masonry__item">
-        <img src="~/assets/img/project-2.jpg" alt="">
-        <div class="item-meta">
-          <h2>Pickled Tousled</h2>
-          <p>Art Direction</p>
+      </header>
+      <div class="ae-container-fluid">
+        <div class="ae-grid ae-grid--collapse rk-portfolio-info ">
+          <div class="ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left">
+            <h2 class="rk-portfolio-inner-title ">Implementando sitio portfolio para tets en @HAL</h2>
+          </div>
+          <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right rk-portfolio-details">
+            <p class="rk-portfolio-inner-client "><span class="ae-lambda">Client: </span><span class="ae-u-bolder">Agency @HAL</span></p>
+            <p class="au-underline rk-portfolio-inner-website "><a href="#0" class="ae-kappa">www.mysite.com</a></p>
+            <p class="ae-kappa ae-u-bold rk-portfolio-inner-date ">12 August, 2018</p>
+          </div>
         </div>
-        </a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-3.jpg" alt="">
-            <div class="item-meta">
-              <h2>Waistcoat vegan</h2>
-              <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-4.jpg" alt="">
-            <div class="item-meta">
-              <h2>Tumblr hammock</h2>
-              <p>Packaging</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-5.jpg" alt="">
-            <div class="item-meta">
-              <h2>Biodiesel etsy</h2>
-              <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-6.jpg" alt="">
-            <div class="item-meta">
-              <h2>Gentrify artisan</h2>
-              <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-7.jpg" alt="">
-            <div class="item-meta">
-              <h2>Plaid austin</h2>
-              <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-8.jpg" alt="">
-            <div class="item-meta">
-              <h2>Trust fund</h2>
-              <p>Packaging</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-9.jpg" alt="">
-            <div class="item-meta">
-              <h2>Gentrify pork</h2>
-              <p>Branding</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-10.jpg" alt="">
-            <div class="item-meta">
-              <h2>Waistcoat ugh</h2>
-              <p>UI/UX</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-11.jpg" alt="">
-            <div class="item-meta">
-              <h2>Deep v kogi</h2>
-              <p>Graphic Design</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-12.jpg" alt="">
-            <div class="item-meta">
-              <h2>Venmo trust</h2>
-              <p>Packaging</p>
-            </div></a><a href="portfolio-item.html" class="rk-item ae-masonry__item"><img src="assets/img/project-13.jpg" alt="">
-            <div class="item-meta">
-              <h2>Venmo trust</h2>
-              <p>Ui/UX</p>
-            </div></a>
+      </div>
+      <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
+        <div class="ae-grid ae-grid--collapse au-xs-ptp-1">
+          <div class="ae-grid__item item-lg-5 au-lg-ptp-1">
+            <h4 class="ae-u-bolder">Site Info - Technical Information.</h4>
+            <p class="ae-eta">Este sitio está construido con <a href="https://nuxtjs.org/"><code>Nuxt.js</code></a> y <a href="https://vuejs.org/"><code>Vue.js</code></a>. Nuxt.js en su núcleo es un marco para la construcción de aplicaciones de Universal Vue.js, pero también se puede utilizar para crear sitios estáticos, que es como lo uso para este sitio.</p>
+            <p class="ae-eta">El sitio está alojado en <a href="https://pages.github.com/" target="_blank"><code>GitHub Pages</code></a> y acelerado con <a href="https://www.netlify.com/" target="_blank"><code>Netlify</code></a>. Los cuales ofrecen servicios increíbles y constantemente agregan nuevas características y beneficios.</p>
+          </div>
+          <div class="ae-grid__item item-lg-6 item-lg--offset-1"><img src="~/assets/img/inner-1.jpg" alt="Urku Portfolio"></div>
         </div>
-      </section>
+      </div>
+  </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  }
+    transition: 'fadeOpacity'
 }
 </script>
+
+<style scoped>
+.fadeOpacity-enter-active, .fadeOpacity-leave-active {
+  transition: opacity .45s ease-out;
+}
+
+.fadeOpacity-enter, .fadeOpacity-leave-active {
+  opacity: 0;
+}
+
+</style>
 

@@ -14,6 +14,7 @@
         </div>
         <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
           <p class="rk-footer__text rk-footer__contact "> <span class="ae-u-bold">Email: </span><span class="ae-u-bolder"> <a href="mailto:iukones1@gmail.com" class="rk-dark-color ">iukones1@gmail.com </a></span></p>
+          <p class="rk-footer__text rk-footer__by">development by <a href="https://www.iukones.com" class="ae-u-bolder">@iukones.</a></p>
         </div>
       </div>
     </footer>
