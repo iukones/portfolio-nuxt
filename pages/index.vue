@@ -25,7 +25,7 @@
             <p class="ae-eta">Este sitio está construido con <a href="https://nuxtjs.org/"><code>Nuxt.js</code></a> y <a href="https://vuejs.org/"><code>Vue.js</code></a>. Nuxt.js en su núcleo es un marco para la construcción de aplicaciones de Universal Vue.js, pero también se puede utilizar para crear sitios estáticos, que es como lo uso para este sitio.</p>
             <p class="ae-eta">El sitio está alojado en <a href="https://pages.github.com/" target="_blank"><code>GitHub Pages</code></a> y acelerado con <a href="https://www.netlify.com/" target="_blank"><code>Netlify</code></a>. Los cuales ofrecen servicios increíbles y constantemente agregan nuevas características y beneficios.</p>
           </div>
-          <div class="ae-grid__item item-lg-6 item-lg--offset-1"><img src="~/assets/img/inner-1.jpg" alt="Urku Portfolio"></div>
+          <div class="ae-grid__item item-lg-6 item-lg--offset-1"><img src="~/assets/img/Lighthouse-reportq.jpg" alt="Urku Portfolio"></div>
         </div>
       </div>
   </section>
